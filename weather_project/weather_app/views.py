@@ -3,7 +3,7 @@ import requests
 import datetime
 
 def index(request):
-    with open('C:\\Users\\P52s-Workstation\\Python-AI\\webapplicationbuilding\\Django\\WeatherAppDjango\\weather_project\\API_KEY', 'r') as f:
+    with open('Your Api key', 'r') as f:
         api_key = f.read().strip()
   
     forecast_url = 'https://api.openweathermap.org/data/2.5/forecast?q={}&appid={}'
